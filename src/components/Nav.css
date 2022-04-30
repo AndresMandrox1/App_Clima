@@ -1,0 +1,60 @@
+#Logo {
+  margin-right: 20px;
+  width: 70px;
+  height: 70px;
+}
+
+.about {
+  text-decoration: none;
+  color: rgb(40, 149, 133);
+  font-style: oblique;
+  font-size: larger;
+}
+.about:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}
+.Logo_desc {
+  color: rgb(40, 149, 133);
+  font-size: larger;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.Logo_desc:hover {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: 80px;
+  padding: 5px;
+  justify-items: last baseline;
+  align-items: center;
+  background-color: rgb(206, 225, 232);
+}
+
+.btnA {
+  background-color: rgb(177, 205, 219);
+  color: rgb(40, 149, 133);
+  border: solid 1px rgb(40, 149, 133);
+}
+
+.btnA:hover{
+  font-weight: bolder;
+  background-color: rgb(167, 194, 207);
+}
+
+.holder {
+  border: solid 1px rgb(40, 149, 133);
+  background-color: rgb(240, 240, 240);
+  outline: none;
+}
+
+.holder::placeholder {
+  color: rgb(40, 149, 133);
+}
