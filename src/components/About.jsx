@@ -6,13 +6,9 @@ export default function about() {
   return (
     <div className="Ab">
       <h1>Andrés Estuardo Mandrox López</h1>
-      <h2>Desarrollador Web</h2>
-      <p>
-        {" "}
-        Este es uno de mis primeros proyectos usando react, espero sea de su
-        agrado
-      </p>
-      <p>Más acerca de mi trabajo en: </p>
+      <h2>Web Developer</h2>
+      <p> This is one of my first projects using react, I hope you like it</p>
+      <p>More of my work on: </p>
       <div>
         Linkedin:
         <a href="https://www.linkedin.com/in/andres-mandrox-508b9a234/">
